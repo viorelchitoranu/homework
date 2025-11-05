@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="dog" class="com.devmind.springapp.Dog">
+        <constructor-arg value="myDog"/>
+        <property name="animalName" value="Skippy"/>
+    </bean>
+    <bean id="cat" class="com.devmind.springapp.Cat"/>
+
+</beans>
